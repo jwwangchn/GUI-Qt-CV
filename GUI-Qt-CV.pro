@@ -29,3 +29,23 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
+
+INCLUDEPATH += D:\opencv2411_my\build\include \
+               D:\opencv2411_my\build\include\opencv \
+               D:\opencv2411_my\build\include\opencv2
+
+LIBS += -LD:\opencv2411_my\build\x64\vc12\lib \
+        -lopencv_calib3d2413d \
+        -lopencv_core2413d \
+        -lopencv_features2d2413d \
+        -lopencv_flann2413d \
+        -lopencv_highgui2413d \
+        -lopencv_imgproc2413d \
+        -lopencv_ml2413d \
+        -lopencv_objdetect2413d \
+        -lopencv_photo2413d \
+        -lopencv_stitching2413d \
+        -lopencv_superres2413d \
+        -lopencv_ts2413d \
+        -lopencv_video2413d \
+        -lopencv_videostab2413d
